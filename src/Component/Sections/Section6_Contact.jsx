@@ -11,8 +11,8 @@ import map from '../../assets/map.jpg';
 const Section6_Contact = () => {
     return (
         <div className='border-2 border-gray-200 rounded-3xl p-2'>
-            <div className='mx-auto w-full bg-amber-200'>
-                <button className='text-2xl p-2 rounded-xl font-bold text-center mx-auto my-10 bg-lime-500'>Our Branches</button>
+            <div className=''>
+                <h2 className='text-xl p-2 rounded-xl w-48 font-semibold text-center mx-auto my-10 bg-lime-500'>Our Branches</h2>
             </div>
             <div className='flex items-center justify-evenly flex-wrap gap-5 mb-10'>
                 <div className='bg-lime-500/20 border-2 border-lime-400 p-2 rounded-lg'>
@@ -86,4 +86,3 @@ const Section6_Contact = () => {
 };
 
 export default Section6_Contact;
-
